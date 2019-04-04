@@ -3,11 +3,11 @@
 using namespace std;
 
 int main() {
-	int n, k, t;
+	unsigned short int n, k, t;
 
-	scanf("%d", &t);	
+	scanf("%hu", &t);	
 	while(t > 0) { 
-		scanf("%d %d", &n, &k);
+		scanf("%hu %hu", &n, &k);
 		if(n < k)
 			cout << n << endl;
 		else
